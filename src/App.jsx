@@ -8,6 +8,7 @@ function App() {
   return (
     <>
      <h1>A blog app in nappWrite</h1>
+     <h1>made with love by sagar sharma</h1>
     </>
   )
 }
