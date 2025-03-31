@@ -64,7 +64,7 @@ export class service{
 
         }
     }
-    async getPost(slug) {
+    async function getPost(slug) {
         try{
             return await this.databases.getDocument(
                 conf.appwriteDatabaseId,
@@ -107,7 +107,7 @@ export class service{
         
     }
 
-    async deleteFile(fileId){
+    async function deleteFile(fileId){
         try{
             await this.bucket.deleteFile(
                 conf.appwriteBucketId,
